@@ -1,11 +1,17 @@
 import type {BusinessConfig, MenuItem} from '../types';
+import heroImage from '../assets/images/hero_naji_coffee_1795716362374.jpg';
+import pistachioLatteImage from '../assets/images/menu_pistachio_latte_1795716362744.jpg';
+import mesopotamiaV60Image from '../assets/images/menu_mesopotamia_v60_1795716361967.jpg';
+import pastriesImage from '../assets/images/menu_pistachio_pastry_1795716363343.jpg';
+import toastImage from '../assets/images/menu_amlou_toast_1795716379064.jpg';
+import interiorImage from '../assets/images/gallery_naji_interior_1795716379331.jpg';
 
-export const HERO_IMAGE = '/src/assets/images/hero_naji_coffee_1795716362374.jpg';
-export const PISTACHIO_LATTE_IMAGE = '/src/assets/images/menu_pistachio_latte_1795716362744.jpg';
-export const MESOPOTAMIA_V60_IMAGE = '/src/assets/images/menu_mesopotamia_v60_1795716361967.jpg';
-export const PASTRIES_IMAGE = '/src/assets/images/menu_pistachio_pastry_1795716363343.jpg';
-export const TOAST_IMAGE = '/src/assets/images/menu_amlou_toast_1795716379064.jpg';
-export const INTERIOR_IMAGE = '/src/assets/images/gallery_naji_interior_1795716379331.jpg';
+export const HERO_IMAGE = heroImage;
+export const PISTACHIO_LATTE_IMAGE = pistachioLatteImage;
+export const MESOPOTAMIA_V60_IMAGE = mesopotamiaV60Image;
+export const PASTRIES_IMAGE = pastriesImage;
+export const TOAST_IMAGE = toastImage;
+export const INTERIOR_IMAGE = interiorImage;
 
 export const DEFAULT_BUSINESS_CONFIG: BusinessConfig = {
   name: 'Naji Specialty Coffee',
