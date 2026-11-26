@@ -1,0 +1,8 @@
+{
+  "name": "Naji Specialty Coffee — Chamberí, Madrid",
+  "description": "Specialty coffee bar in Chamberí, Madrid blending third-wave espresso and manual pour-overs with Iraqi and Middle Eastern flavors. Browse the interactive digital menu, order via WhatsApp, or scan the table QR code.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
