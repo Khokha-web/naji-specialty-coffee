@@ -88,7 +88,7 @@ export const QrMenuPage: React.FC<QrMenuPageProps> = ({
               aria-label="Language switcher"
               className="inline-flex items-center gap-1 p-1 bg-[#F2EFE9] rounded-lg"
             >
-              {(['en', 'fr', 'ar'] as Language[]).map((code) => (
+              {(['en', 'es'] as Language[]).map((code) => (
                 <button
                   key={code}
                   type="button"
@@ -99,7 +99,7 @@ export const QrMenuPage: React.FC<QrMenuPageProps> = ({
                       : 'text-[#6B655E] hover:text-[#1A1715]'
                   }`}
                 >
-                  {code === 'en' ? 'EN' : code === 'fr' ? 'FR' : 'AR'}
+                  {code === 'en' ? 'EN' : 'ES'}
                 </button>
               ))}
             </div>
